@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IXTLAN:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IXTLAN_jar</output-path>
+    <root id="archive" name="IXTLAN.jar">
+      <element id="module-output" name="IXTLAN" />
+    </root>
+  </artifact>
+</component>
