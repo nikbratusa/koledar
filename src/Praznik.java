@@ -1,11 +1,13 @@
 public class Praznik {
     int dan;
     int mesec;
+    int leto;
     boolean sePonavlja;
 
-    public Praznik(int dan, int mesec, boolean sePonavlja) {
+    public Praznik(int dan, int mesec, int leto, boolean sePonavlja) {
         this.dan = dan;
         this.mesec = mesec;
+        this.leto = leto;
         this.sePonavlja = sePonavlja;
     }
 
@@ -15,6 +17,14 @@ public class Praznik {
 
     public void setDan(int dan) {
         this.dan = dan;
+    }
+
+    public int getLeto() {
+        return leto;
+    }
+
+    public void setLeto(int leto) {
+        this.leto = leto;
     }
 
     public int getMesec() {
